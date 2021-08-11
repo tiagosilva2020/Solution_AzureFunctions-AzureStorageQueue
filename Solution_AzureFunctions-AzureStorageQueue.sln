@@ -12,6 +12,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{6D0E
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FunctionAppProcessarAcoes.IntegrationTests", "FunctionAppProcessarAcoes.IntegrationTests\FunctionAppProcessarAcoes.IntegrationTests.csproj", "{2DE81AC0-127B-4413-9DAA-372E0CA60EA5}"
 EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BaseAcoes", "FunctionAppProcessarAcoes.Migrations.SQLite\BaseAcoes\BaseAcoes.csproj", "{AD0E8999-AC41-4B14-9C3D-912AA76C43E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,6 +28,10 @@ Global
 		{2DE81AC0-127B-4413-9DAA-372E0CA60EA5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DE81AC0-127B-4413-9DAA-372E0CA60EA5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2DE81AC0-127B-4413-9DAA-372E0CA60EA5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD0E8999-AC41-4B14-9C3D-912AA76C43E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD0E8999-AC41-4B14-9C3D-912AA76C43E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD0E8999-AC41-4B14-9C3D-912AA76C43E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD0E8999-AC41-4B14-9C3D-912AA76C43E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
